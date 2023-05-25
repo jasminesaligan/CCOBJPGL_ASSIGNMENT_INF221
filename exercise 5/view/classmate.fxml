@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="306.0" prefWidth="637.0" style="-fx-background-color: #fcca00;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ClassmateController">
+   <children>
+      <Text fill="#0000007f" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASSMATES CLASSMATES CLASSMATES CLASSMATES CLASSMATES CLASSMATES CLASSMATES" wrappingWidth="361.13671875">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="39.0" />
+         </font>
+      </Text>
+      <Text fill="#00000084" layoutX="328.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASSMATES CLASSMATES CLASSMATES CLASSMATES CLASSMATES CLASSMATES CLASSMATES" wrappingWidth="361.13671875">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="39.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fac800c7" height="420.0" layoutX="-41.0" layoutY="-87.0" stroke="BLACK" strokeType="INSIDE" width="678.0" />
+      <Text fill="#363636" layoutX="145.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE SLAYERS" wrappingWidth="478.13671875">
+         <font>
+            <Font name="Rockwell Extra Bold" size="45.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="96.0" layoutY="141.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="142.0" layoutX="20.0" layoutY="81.0" stroke="TRANSPARENT" strokeType="INSIDE" width="112.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="142.0" layoutX="141.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="112.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="142.0" layoutX="263.0" layoutY="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="112.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="142.0" layoutX="384.0" layoutY="81.0" stroke="TRANSPARENT" strokeType="INSIDE" width="112.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="142.0" layoutX="506.0" layoutY="82.0" stroke="TRANSPARENT" strokeType="INSIDE" width="112.0" />
+      <ImageView fitHeight="84.0" fitWidth="86.0" layoutX="33.0" layoutY="93.0">
+         <image>
+            <Image url="@../images/Celine.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="92.0" layoutX="151.0" layoutY="93.0">
+         <image>
+            <Image url="@../images/Darrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="95.0" layoutX="272.0" layoutY="94.0">
+         <image>
+            <Image url="@../images/Emlan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="95.0" layoutX="393.0" layoutY="95.0">
+         <image>
+            <Image url="@../images/Jiu.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn4" layoutX="42.0" layoutY="191.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #fac800;" text="CELINE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="161.0" layoutY="191.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #fac800;" text="DARREL">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="286.0" layoutY="191.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #fac800;" text="EMLAN">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="87.0" fitWidth="97.0" layoutX="514.0" layoutY="95.0">
+         <image>
+            <Image url="@../images/Thea.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn3" layoutX="422.0" layoutY="191.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #fac800;" text="JIU">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="535.0" layoutY="191.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #fac800;" text="THEA">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="14.0" layoutX="496.0" layoutY="35.0" stroke="TRANSPARENT" strokeType="INSIDE" width="492.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="14.0" layoutX="-351.0" layoutY="35.0" stroke="TRANSPARENT" strokeType="INSIDE" width="492.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.0" layoutX="-55.0" layoutY="269.0" stroke="TRANSPARENT" strokeType="INSIDE" width="711.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="-46.0" layoutY="287.0" stroke="TRANSPARENT" strokeType="INSIDE" width="711.0" />
+   </children>
+</AnchorPane>
