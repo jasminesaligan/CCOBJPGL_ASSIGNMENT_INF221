@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="404.0" style="-fx-background-color: #634e86;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Text fill="#cab6d911" layoutX="-33.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA IKEA IKEA " wrappingWidth="858.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Text fill="#cab6d910" layoutX="-148.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA IKEA IKEA " wrappingWidth="858.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Text fill="#cab6d912" layoutX="-19.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA IKEA IKEA " wrappingWidth="858.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Text fill="#cab6d911" layoutX="-168.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA IKEA IKEA " wrappingWidth="858.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Text fill="#cab6d912" layoutX="-77.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA IKEA IKEA " wrappingWidth="858.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Text fill="#cab6d913" layoutX="17.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA IKEA IKEA " wrappingWidth="858.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Text fill="#cab6d913" layoutX="86.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" IKEA IKEA " wrappingWidth="420.0">
+         <font>
+            <Font name="Impact" size="84.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="555.0" layoutX="-71.0" layoutY="-28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="149.0" />
+      <Text layoutX="-163.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-rotate: -90;" text="ORDER RECEIPT" wrappingWidth="388.13671875">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="56.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="590.0" layoutX="-35.0" layoutY="-13.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="268.0" layoutX="107.0" layoutY="159.0" stroke="TRANSPARENT" strokeType="INSIDE" width="272.0" />
+      <Text fill="#ffca0d" layoutX="166.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IKEA">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="89.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="67.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="67.0" layoutY="103.0" stroke="BLACK" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="67.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="67.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="67.0" layoutY="401.0" stroke="BLACK" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="67.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" width="3.0" />
+      <Text fill="WHITE" layoutX="201.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="June 1, 2023">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="120.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="133.11474609375">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="180.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manila, Philippines">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="18.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="69.0" layoutX="109.0" layoutY="435.0" stroke="#ffffff00" strokeType="INSIDE" width="272.0" />
+      <Text layoutX="129.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="name1" layoutX="127.0" layoutY="208.0" text="Bedroom Lamp" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="name2" layoutX="128.0" layoutY="244.0" text="Ceiling Lamp" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="name3" layoutX="130.0" layoutY="284.0" text="Wall Lamp" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+      <Text fill="#ffca0d" layoutX="123.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORDER NAME">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#ffca0d" layoutX="319.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="17.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffca0d" height="3.0" layoutX="130.0" layoutY="232.0" stroke="TRANSPARENT" strokeType="INSIDE" width="236.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffca0d" height="3.0" layoutX="129.0" layoutY="270.0" stroke="TRANSPARENT" strokeType="INSIDE" width="236.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffca0d" height="3.0" layoutX="130.0" layoutY="307.0" stroke="TRANSPARENT" strokeType="INSIDE" width="236.0" />
+      <Label fx:id="lineamount1" layoutX="308.0" layoutY="208.0" text="Label" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lineamount2" layoutX="308.0" layoutY="245.0" text="Label" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lineamount3" layoutX="308.0" layoutY="286.0" text="Label" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffca0d" height="29.0" layoutX="132.0" layoutY="385.0" stroke="TRANSPARENT" strokeType="INSIDE" width="224.0" />
+      <Text layoutX="141.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Order:">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="Total" layoutX="308.0" layoutY="393.0" text="Label">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+      <Text fill="#ffca0d" layoutX="159.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for choosing us!">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#ffca0d" layoutX="241.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QNTY">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="17.0" />
+         </font>
+      </Text>
+      <Label fx:id="qnty1" layoutX="244.0" layoutY="207.0" text="Label" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qnty2" layoutX="244.0" layoutY="245.0" text="Label" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qnty3" layoutX="245.0" layoutY="284.0" text="Label" visible="false">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
